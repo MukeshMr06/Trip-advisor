@@ -249,12 +249,14 @@
     left: 94%;
 }
 
-.destination__d1{
+.destination__d1 {
     margin: 10px;
 }
-.destination__d2{
+
+.destination__d2 {
     margin: 10px;
 }
+
 .destination__course {
     display: flex;
     margin: 30px;
@@ -275,6 +277,7 @@
     color: white;
     font-size: larger;
 }
+
 .destination__course__header2 {
     position: absolute;
     top: 100px;
@@ -296,4 +299,89 @@
     margin-left: 5px;
     color: white;
     font-size: larger;
+}
+
+.section {
+    position: relative;
+}
+
+.section img {
+    width: 70%;
+    margin-left: 200px;
+
+}
+
+.section__s1 {
+    position: absolute;
+    top: 220px;
+    margin-left: 250px;
+    color: white;
+    width: 20%;
+}
+
+
+.section__s1__para {
+    margin-top: 10px;
+}
+
+.section__s1__butn {
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.footer__sec {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 20px;
+}
+.footer__f1{
+    margin: 10px;
+}
+
+.footer__f2{
+    margin: 10px;
+}
+.footer__f3{
+    margin: 10px;
+}
+.footer__sec2 {
+    position: absolute;
+    top: 10px;
+    margin-left: 1000px;
+   
+}
+.footer__sec2 p{
+    margin: 10px;
+}
+.footer {
+    background-color: bisque;
+    margin-top: 20px;
+    position: relative;
+    height: 100%;
+}
+.footer__sec3{
+    width: 70%;
+}
+.footer__sec3 img{
+width: 20px;
+align-items: center;
+}
+
+.footer__sec3__para{
+    display: flex;
+    text-decoration: underline;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer__f4{
+    position: absolute;
+    margin-left: 1000px;
+    top: 200px;
+    gap: 10px;
 }
