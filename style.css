@@ -10,7 +10,7 @@
 
 .image img {
     height: 100px;
-    width: 200px;
+    width: 150px;
 
 }
 
@@ -20,6 +20,11 @@
     align-items: center;
     font-weight: bold;
     font-size: larger;
+}
+
+.menubar {
+    margin-top: 45px;
+    display: none;
 }
 
 .butn button {
@@ -340,48 +345,351 @@
     margin: 10px;
     margin-top: 20px;
 }
-.footer__f1{
+
+.footer__f1 {
     margin: 10px;
 }
 
-.footer__f2{
+.footer__f2 {
     margin: 10px;
 }
-.footer__f3{
+
+.footer__f3 {
     margin: 10px;
 }
+
 .footer__sec2 {
     position: absolute;
     top: 10px;
     margin-left: 1000px;
-   
+
 }
-.footer__sec2 p{
+
+.footer__sec2 p {
     margin: 10px;
 }
+
 .footer {
     background-color: bisque;
     margin-top: 20px;
     position: relative;
     height: 100%;
 }
-.footer__sec3{
+
+.footer__sec3 {
     width: 70%;
 }
-.footer__sec3 img{
-width: 20px;
-align-items: center;
+
+.footer__sec3 img {
+    width: 20px;
+    align-items: center;
 }
 
-.footer__sec3__para{
+.footer__sec3__para {
     display: flex;
     text-decoration: underline;
     justify-content: space-between;
     margin-top: 10px;
 }
-.footer__f4{
+
+.footer__f4 {
     position: absolute;
     margin-left: 1000px;
     top: 200px;
     gap: 10px;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        font-size: 10px;
+    }
+.image img{
+    width: 100px;
+} 
+    .para p { 
+        font-size: 15px;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    .butn button {
+        display: none;
+    }
+
+    .navebar__nav {
+        margin-left: 0px;
+        width: 450px;
+    }
+
+    .trip {
+        position: relative;
+    }
+
+    .tripimage img {
+        width: 90%;
+        margin-left: 20px;
+        position: relative;
+    }
+
+    .tripimage__trip {
+        color: white;
+        font-size: 9px;
+        position: absolute;
+        top: 180px;
+        width: 50%;
+        left: 50px;
+    }
+
+    .recommended__h1 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .recommended__p {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .recommended__image {
+        width: 90%;
+        flex-wrap: wrap;
+
+    }
+
+    .recommended__image img {
+        width: 100%;
+        position: relative;
+    }
+
+    .recommended__image__1__head {
+        font-size: 20px;
+        position: absolute;
+        top: 1170px;
+        color: white;
+        z-index: 1;
+    }
+
+    .recommended__image__2__head {
+        font-size: 20px;
+        position: absolute;
+        top: 850px;
+        color: white;
+        z-index: 1;
+    }
+
+    .recommended__image__3__head {
+        font-size: 20px;
+        position: absolute;
+        top: 220px;
+        color: white;
+        z-index: 1;
+    }
+
+    .recommended__image__4__head {
+        font-size: 20px;
+        position: absolute;
+        top: 550px;
+        color: white;
+        z-index: 1;
+    }
+
+    .tripcard__container {
+        flex-wrap: wrap;
+        margin-left: 10px;
+        position: relative;
+    }
+
+    .trip--course {
+        flex-basis: 40%;
+        position: relative;
+    }
+
+    .tripcard__para {
+        font-size: 15px;
+    }
+
+    .heart img {
+        width: 20px;
+        color: black;
+        position: absolute;
+
+    }
+
+    .heart__h1 {
+        top: 0px;
+        left: 370px;
+    }
+
+    .heart__h2 {
+        top: 255px;
+        left: 165px;
+    }
+
+    .heart__h3 {
+        top: 255px;
+        left: 370px;
+    }
+
+    .heart__h4 {
+        top: 50px;
+        left: 170px;
+    }
+
+    .explore {
+        height: 90%;
+        width: 90%;
+    }
+
+    .explore h1 {
+        margin: 10px;
+    }
+
+    .explore__image {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .explore__image h3 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .explore__image img {
+        width: 100%;
+        position: relative;
+    }
+
+    .explore__heart img {
+        width: 35px;
+        height: 30px;
+    }
+
+    .heart__h5 {
+        position: absolute;
+        top: 50px;
+        left: 330px;
+    }
+
+    .heart__h6 {
+        position: absolute;
+        top: 380px;
+        left: 330px;
+    }
+
+    .heart__h7 {
+        position: absolute;
+        top: 710px;
+        left: 330px;
+    }
+
+    .destination__course {
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .destination__d2 {
+        font-size: 20px;
+    }
+
+    .destination__course__1 img {
+        width: 100%;
+        height: 110%;
+    }
+
+    .destination__course__header1 {
+        font-size: 20px;
+        position: absolute;
+        top: 130px;
+        color: red;
+    }
+
+    .destination__course__2 img {
+        width: 100%;
+        height: 110%;
+    }
+
+    .destination__course__header2 {
+        font-size: 15px;
+        position: absolute;
+        padding-left: 5px;
+        top: 880px;
+        z-index: 1;
+        color: red;
+    }
+
+    .destination__course__3 img {
+        width: 110%;
+        height: 100%;
+    }
+
+    .destination__course__header3 {
+        font-size: 20px;
+        position: absolute;
+        top: 620px;
+        color: red;
+    }
+
+    .destination__course__4 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .destination__course__header4 {
+        font-size: 20px;
+        position: absolute;
+        top: 360px;
+        color: red;
+    }
+
+    .section img {
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .section__s1 {
+        font-size: 10px;
+        color: red;
+        z-index: 1;
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .footer {
+        margin: 5px;
+    }
+
+    .footer__sec3 img {
+        display: inline;
+        margin-left: 5px;
+    }
+
+    .footer__sec3__p {
+        display: inline;
+
+    }
+
+    .footer__sec3__para {
+        display: none;
+    }
+
+    .footer__f3__p {
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .footer__sec2 {
+        margin-left: 350px;
+    }
+
+    .footer__f4 {
+        top: 200px;
+        margin-left: 230px;
+
+    }
+
 }
