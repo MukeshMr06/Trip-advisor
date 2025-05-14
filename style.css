@@ -6,6 +6,7 @@
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .image img {
@@ -23,7 +24,6 @@
 }
 
 .menubar {
-    margin-top: 45px;
     display: none;
 }
 
@@ -33,7 +33,6 @@
     border: none;
     border-radius: 50%;
     padding: 10px;
-    margin-top: 30px;
 }
 
 .navebar h1 {
@@ -403,10 +402,12 @@
     body {
         font-size: 10px;
     }
-.image img{
-    width: 100px;
-} 
-    .para p { 
+
+    .image img {
+        width: 100px;
+    }
+
+    .para p {
         font-size: 15px;
     }
 
@@ -503,6 +504,7 @@
 
     .trip--course {
         flex-basis: 40%;
+        flex-grow: 1;
         position: relative;
     }
 
@@ -512,29 +514,27 @@
 
     .heart img {
         width: 20px;
-        color: black;
         position: absolute;
-
     }
 
     .heart__h1 {
-        top: 0px;
-        left: 370px;
+        top: 10px;
+        left: 430px;
     }
 
     .heart__h2 {
-        top: 255px;
-        left: 165px;
+        top: 285px;
+        left: 195px;
     }
 
     .heart__h3 {
-        top: 255px;
-        left: 370px;
+        top: 285px;
+        left: 430px;
     }
 
     .heart__h4 {
-        top: 50px;
-        left: 170px;
+        top: 60px;
+        left: 190px;
     }
 
     .explore {
@@ -568,7 +568,7 @@
 
     .heart__h5 {
         position: absolute;
-        top: 50px;
+        top: 60px;
         left: 330px;
     }
 
@@ -586,8 +586,8 @@
 
     .destination__course {
         justify-content: center;
+        flex-basis: 40%;
         flex-wrap: wrap;
-
     }
 
     .destination__d2 {
